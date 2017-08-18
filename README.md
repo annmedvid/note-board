@@ -2,7 +2,7 @@
 
 This app allows to display/make/edit/delete notes.
 
-![app preview](https://github.com/annmedvid/note-board/tree/master/docs/note-board-preview.gif)
+![app preview](https://github.com/annmedvid/note-board/blob/master/docs/note-board-preview.gif)
 
 Created with such technologies:
 + [React](https://github.com/facebook/react) as a core of building UI 

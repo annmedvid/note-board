@@ -15,7 +15,7 @@ Created with such technologies:
 
 For server-side is used emulation of API with [JSON Server](https://github.com/typicode/json-server).
 
-##To watch the project:
+## To watch the project:
 
 1. Download this repo
 2. Go to `note-board` directory in terminal

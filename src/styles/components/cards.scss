@@ -1,0 +1,35 @@
+@import '../variables';
+
+.cards {
+    width: 250px;
+    min-height: 420px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    border-radius: 3px;
+    background-image: url('../assets/board.jpeg');
+    color: black;
+
+    @media #{$small-tablet} {
+        width: 420px;
+    }
+
+    @media #{$tablet} {
+        width: 600px;
+    }
+
+    @media #{$desktop} {
+        width: 800px;
+    }
+
+    @media #{$large-desktop} {
+        width: 1000px;
+    }
+}
+
+.welcome-message {
+    align-self: center;
+    color: lighten($flint, 20%);
+}

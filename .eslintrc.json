@@ -1,0 +1,13 @@
+{
+    "extends": "react-app",
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "max-len": [2, {"code": 140, "tabWidth": 4, "ignoreUrls": true}],
+        "react/prefer-stateless-function": "off",
+        "no-plusplus": "off"
+    }
+}

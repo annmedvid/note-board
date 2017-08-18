@@ -1,0 +1,105 @@
+@import '../variables';
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home-page-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: $flint;
+}
+
+.header {
+    margin-bottom: 5px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:before {
+        content: "";
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+        display: block;
+        background-image: url("../assets/notes.png");
+        background-size: cover;
+    }
+}
+
+.letter {
+    margin: 0 1px;
+
+    & + .o {
+        display: inline-block;
+        transform: rotate(25deg);
+    }
+
+    &:nth-child(5n + 1) {
+        text-shadow: 
+            0px 0px 0 darken($perfume, 12%),
+            -1px 1px 1px darken($perfume, 15%),
+            -2px 2px 0 darken($perfume, 18%),
+            -3px 3px 0 darken($perfume, 21%),
+            -4px 4px 0 darken($perfume, 24%),
+            -5px 5px 0 darken($perfume, 27%);
+    }
+
+    &:nth-child(5n + 2) {
+        text-shadow: 
+            0px 0px 0 darken($cupid, 12%),
+            -1px 1px 0 darken($cupid, 15%),
+            -2px 2px 0 darken($cupid, 18%),
+            -3px 3px 0 darken($cupid, 21%),
+            -4px 4px 0 darken($cupid, 24%),
+            -5px 5px 0 darken($cupid, 27%);
+    }
+
+    &:nth-child(5n + 3) {
+        text-shadow: 
+            0px 0px 0 darken($gossip, 12%),
+            -1px 1px 0 darken($gossip, 15%),
+            -2px 2px 0 darken($gossip, 18%),
+            -3px 3px 0 darken($gossip, 21%),
+            -4px 4px 0 darken($gossip, 24%),
+            -5px 5px 0 darken($gossip, 27%);
+    }
+
+    &:nth-child(5n + 4) {
+        text-shadow: 
+            0px 0px 0 darken($foam, 12%),
+            -1px 1px 0 darken($foam, 15%),
+            -2px 2px 0 darken($foam, 18%),
+            -3px 3px 0 darken($foam, 21%),
+            -4px 4px 0 darken($foam, 24%),
+            -5px 5px 0 darken($foam, 27%);
+    }
+
+    &:nth-child(5n + 5) {
+        text-shadow: 
+            1px -1px 0 darken($milan, 12%),
+            -1px 1px 0 darken($milan, 15%),
+            -2px 2px 0 darken($milan, 18%),
+            -3px 3px 0 darken($milan, 21%),
+            -4px 4px 0 darken($milan, 24%),
+            -5px 5px 0 darken($milan, 27%);
+    }
+}
+
+.warning {
+    height: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+    p {
+        text-align: center;
+    }
+}

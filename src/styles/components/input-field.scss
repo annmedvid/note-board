@@ -1,0 +1,50 @@
+@import '../variables';
+
+.input-field {
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    height: 35px;
+    width: 200px;
+    margin-right: 2px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid $flint;
+
+    &:focus {
+        border-color: lighten($flint, 15%);
+    }
+
+    @media #{$small-tablet} {
+        width: 350px;
+    }
+
+    @media #{$tablet} {
+        width: 550px;
+    }
+
+    @media #{$desktop} {
+        width: 750px;
+    }
+
+    @media #{$large-desktop} {
+        width: 950px;
+    }
+}
+
+.add {
+    padding: 0;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: $flint;
+
+    &:hover {
+        color: lighten($flint, 15%);
+    }
+}
